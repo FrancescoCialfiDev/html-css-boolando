@@ -1,5 +1,4 @@
 /* General */
-
 * {
     margin: 0%;
     padding: 0%;
@@ -119,7 +118,6 @@ div.contenuto {
 
 .contenuto img {
     width: 100%;
-    /* display: block; */
 
 }
 
@@ -182,6 +180,18 @@ footer p {
     display: none;
 }
 
+
+/* Bonus */
+
 .cuore:hover {
+    color: red;
+}
+
+span{
+    text-decoration-line: line-through;
+    color: black;
+}
+
+p:last-of-type{
     color: red;
 }
