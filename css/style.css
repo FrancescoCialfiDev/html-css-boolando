@@ -1,53 +1,56 @@
 /* General */
 
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
 
-.debug{
+.debug {
     border: 1px solid black;
 }
 
-.d-flex{
+.d-flex {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.discount-red{
+.discount-red {
     padding: 5px 10px;
     background-color: #fc0f0f;
     position: absolute;
     top: 80%;
     left: 0;
     color: white;
+    z-index: 20;
 
 }
 
-.discount-green{
-padding: 5px 10px;
+.discount-green {
+    padding: 5px 10px;
     background-color: #0f860f;
     position: absolute;
     top: 80%;
     left: 60px;
     color: white;
+    z-index: 20;
 }
 
-.discount-green2{
+.discount-green2 {
     padding: 5px 10px;
-        background-color: #0f860f;
-        position: absolute;
-        top: 80%;
-        left: 0;
-        color: white;
-    }
+    background-color: #0f860f;
+    position: absolute;
+    top: 80%;
+    left: 0;
+    color: white;
+    z-index: 20;
+}
 
 /* Root */
 
-:root{
+:root {
     --orange: #ff6900;
     --red: #fc0f0f;
     --green: #0f860f;
@@ -57,7 +60,7 @@ padding: 5px 10px;
 
 /* Header */
 
-header{
+header {
     background-color: #ff6900;
     position: fixed;
     top: 0;
@@ -66,12 +69,12 @@ header{
     z-index: 1000;
 }
 
-Header img{
+Header img {
     width: 150px;
     transform: translate(-40px);
 }
 
-header div:first-child{
+header div:first-child {
     padding: 20px 0;
     margin: 0 auto;
     width: 1200px;
@@ -79,12 +82,12 @@ header div:first-child{
     justify-content: space-between;
 }
 
-header .nav-bar li{
+header .nav-bar li {
     list-style: none;
     color: var(--white);
 }
 
-header .nav-bar li a{
+header .nav-bar li a {
     padding: 0 5px;
     color: white;
     text-decoration: none;
@@ -93,66 +96,90 @@ header .nav-bar li a{
 
 /* Main */
 
-main{
+main {
     margin: 130px auto 80px;
     max-width: 1200px;
 }
 
-#contenitore{
+#contenitore {
     gap: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.contenuto{
-    width: calc(100% / 3 - 10px) 
-    
+.contenuto {
+
+    width: calc(100% / 3 - 10px)
 }
 
-div.contenuto{
+div.contenuto {
     position: relative;
 }
 
-.contenuto img{
+.contenuto img {
     width: 100%;
     display: block;
+
 }
 
-.margin{
+.margin {
     margin-top: 30px;
 }
 
-main i{
+main i {
     position: absolute;
     padding: 15px;
     top: 10px;
     right: 0;
     background-color: white;
+    z-index: 20;
 }
 
 
 
 /* Footer */
 
-.flex-item{
+.flex-item {
     display: flex;
     justify-content: space-around;
-align-items: center;
+    align-items: center;
 }
 
-footer{
+footer {
     background-color: black;
     padding: 20px;
 }
 
-footer h3, footer p, a, footer i{
+footer h3,
+footer p,
+a,
+footer i {
     color: white;
     padding: 0 5px 5px 0;
     text-decoration: none;
-    
+
 }
 
-footer p{
+footer p {
     font-size: 12px;
+}
+
+.contenuto2 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+
+.contenuto2:hover #none{
+    z-index: 10;
+    display: block;
+}
+
+#none{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
 }
