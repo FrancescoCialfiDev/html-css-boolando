@@ -84,9 +84,8 @@ header .nav-bar li a{
 /* Main */
 
 main{
-    margin: 150px auto 80px;
+    margin: 130px auto 80px;
     max-width: 1200px;
-    border: 1px solid red;
 }
 
 #contenitore{
@@ -133,4 +132,8 @@ footer h3, footer p, a, i{
     padding: 0 5px 5px 0;
     text-decoration: none;
     
+}
+
+footer p{
+    font-size: 12px;
 }
