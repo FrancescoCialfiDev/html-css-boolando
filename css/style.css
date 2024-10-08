@@ -183,3 +183,7 @@ footer p {
     left: 0;
     display: none;
 }
+
+.cuore:hover{
+    color: red;
+}
