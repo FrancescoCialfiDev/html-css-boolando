@@ -6,12 +6,75 @@
     box-sizing: border-box;
 }
 
+.debug{
+    border: 1px solid black;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 
 /* Root */
 
 :root{
-    --orange: #FF6900;
-    --red: #FC0F0F;
-    --green: #0F860F;
+    --orange: #ff6900;
+    --red: #fc0f0f;
+    --green: #0f860f;
     --black: #000000;
+    --white: #FFFFFF;
 }
+
+/* Header */
+
+.nav-bar{
+    background-color: #ff6900;
+    border: 1px solid #000000;
+}
+
+Header img{
+    width: 150px;
+    transform: translate(-40px);
+}
+
+header div:first-child{
+    padding: 20px 0;
+}
+
+header .nav-bar li{
+    list-style: none;
+    color: var(--white);
+}
+
+header .nav-bar li a{
+    padding: 0 5px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Main */
+
+main{
+    margin: 50px auto;
+    max-width: 1200px;
+    border: 1px solid red;
+}
+
+#contenitore{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenuto{
+    width: calc(100% / 3)
+}
+
+.contenuto img{
+    width: 100%;
+    display: block;
+}
+
+
