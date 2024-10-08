@@ -36,6 +36,15 @@ padding: 5px 10px;
     color: white;
 }
 
+.discount-green2{
+    padding: 5px 10px;
+        background-color: #0f860f;
+        position: absolute;
+        top: 80%;
+        left: 0;
+        color: white;
+    }
+
 /* Root */
 
 :root{
@@ -81,6 +90,7 @@ header .nav-bar li a{
     text-decoration: none;
 }
 
+
 /* Main */
 
 main{
@@ -113,6 +123,15 @@ div.contenuto{
     margin-top: 30px;
 }
 
+main i{
+    position: absolute;
+    padding: 15px;
+    top: 10px;
+    right: 0;
+    background-color: white;
+}
+
+
 
 /* Footer */
 
@@ -127,7 +146,7 @@ footer{
     padding: 20px;
 }
 
-footer h3, footer p, a, i{
+footer h3, footer p, a, footer i{
     color: white;
     padding: 0 5px 5px 0;
     text-decoration: none;
