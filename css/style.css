@@ -1,0 +1,17 @@
+/* General */
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+/* Root */
+
+:root{
+    --orange: #FF6900;
+    --red: #FC0F0F;
+    --green: #0F860F;
+    --black: #000000;
+}
