@@ -17,6 +17,11 @@
     flex-wrap: wrap;
 }
 
+.discount-red{
+
+}
+
+.discount-green
 
 /* Root */
 
@@ -30,9 +35,12 @@
 
 /* Header */
 
-.nav-bar{
+header{
     background-color: #ff6900;
-    border: 1px solid #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 Header img{
@@ -42,6 +50,10 @@ Header img{
 
 header div:first-child{
     padding: 20px 0;
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
 }
 
 header .nav-bar li{
@@ -58,18 +70,21 @@ header .nav-bar li a{
 /* Main */
 
 main{
-    margin: 50px auto;
+    margin: 150px auto 80px;
     max-width: 1200px;
     border: 1px solid red;
 }
 
 #contenitore{
+    gap: 10px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .contenuto{
-    width: calc(100% / 3)
+    width: calc(100% / 3 - 10px) 
+    
 }
 
 .contenuto img{
@@ -77,4 +92,13 @@ main{
     display: block;
 }
 
+.margin{
+    margin-top: 30px;
+}
 
+
+/* Footer */
+
+footer{
+    background-color: var(--black);
+}
