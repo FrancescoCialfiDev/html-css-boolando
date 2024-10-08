@@ -18,10 +18,23 @@
 }
 
 .discount-red{
+    padding: 5px 10px;
+    background-color: #fc0f0f;
+    position: absolute;
+    top: 80%;
+    left: 0;
+    color: white;
 
 }
 
-.discount-green
+.discount-green{
+padding: 5px 10px;
+    background-color: #0f860f;
+    position: absolute;
+    top: 80%;
+    left: 60px;
+    color: white;
+}
 
 /* Root */
 
@@ -41,6 +54,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 1000;
 }
 
 Header img{
@@ -87,6 +101,10 @@ main{
     
 }
 
+div.contenuto{
+    position: relative;
+}
+
 .contenuto img{
     width: 100%;
     display: block;
@@ -99,6 +117,20 @@ main{
 
 /* Footer */
 
+.flex-item{
+    display: flex;
+    justify-content: space-around;
+align-items: center;
+}
+
 footer{
-    background-color: var(--black);
+    background-color: black;
+    padding: 20px;
+}
+
+footer h3, footer p, a, i{
+    color: white;
+    padding: 0 5px 5px 0;
+    text-decoration: none;
+    
 }
