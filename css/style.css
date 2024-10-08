@@ -119,7 +119,7 @@ div.contenuto {
 
 .contenuto img {
     width: 100%;
-    display: block;
+    /* display: block; */
 
 }
 
@@ -153,12 +153,10 @@ footer {
 
 footer h3,
 footer p,
-a,
-footer i {
+footer i , footer a{
     color: white;
     padding: 0 5px 5px 0;
     text-decoration: none;
-
 }
 
 footer p {
@@ -172,18 +170,18 @@ footer p {
 }
 
 
-.contenuto2:hover #none{
+.contenuto2:hover .none {
     z-index: 10;
     display: block;
 }
 
-#none{
+.none {
     position: absolute;
     top: 0;
     left: 0;
     display: none;
 }
 
-.cuore:hover{
+.cuore:hover {
     color: red;
 }
